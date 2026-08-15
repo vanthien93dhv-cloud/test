@@ -1,0 +1,145 @@
+.article-banner {
+    min-height: 42.328vw;
+}
+
+.article-banner-grid {
+    opacity: 0.6;
+}
+
+.article-banner-grid::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+        linear-gradient(180deg, #000000 14.38%, rgba(0, 0, 0, 0) 47.45%),
+        linear-gradient(180deg, rgba(0, 0, 0, 0) 57.95%, #000000 88.17%);
+}
+
+.article-banner-bg::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, #000000 14.62%, rgba(0, 0, 0, 0) 81.15%);
+}
+
+.article-banner-logo {
+    top: 44%;
+    width: 12.434vw;
+}
+
+.article-main-sec {
+    padding: 4.431vw 0 6.614vw;
+}
+
+.article-main-sec .article-info {
+    line-height: 1.375;
+    margin-bottom: 6.878vw;
+}
+
+.article-main-sec .article-info span {
+    display: block;
+}
+
+.article-main-sec .article-info p {
+    max-width: 26.455vw;
+}
+
+.article-main-sec .article-info .square {
+    margin-top: 0.331vw;
+}
+
+.article-main-sec .article-info .column {
+    padding-right: 1.587vw;
+    gap: 3.175vw;
+}
+
+.article-main-sec .article-info .column-1 {
+    width: 25.5%;
+    gap: 1.587vw;
+}
+
+.article-main-sec .article-info .column-2 {
+    width: 17%;
+}
+
+.article-main-sec .article-info .column-3 {
+    width: 45.5%;
+}
+
+.article-main-sec .article-info .column-4 {
+    width: 12%;
+    padding-right: 0;
+}
+
+.article-main-sec .article-content {
+    gap: 5.159vw;
+}
+
+.article-main-sec .article-content .left {
+    width: calc(43.64% - 2.579vw);
+}
+
+.article-main-sec .article-content .right {
+    width: calc(56.36% - 2.579vw);
+    max-width: 41.27vw;
+}
+
+.article-main-sec .article-content .title {
+    font-size: 2.646vw;
+    letter-spacing: 0.011em;
+    margin-bottom: 3.77vw;
+}
+
+.article-main-sec .article-content .content-text {
+    margin-bottom: 7.077vw;
+}
+
+.article-main-sec .article-content .content-text a,
+.article-main-sec .article-content .content-text span {
+    color: #FF7B31;
+}
+
+.article-main-sec .article-content .content-btn {
+    display: inline-block;
+    font-size: 0.794vw;
+    letter-spacing: 0.13em;
+    padding: 0.827vw 1.521vw;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 2.381vw;
+}
+
+.article-main-sec .article-content .content-bottom {
+    gap: 1.587vw;
+}
+
+.article-main-sec .article-content .content-btn:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+.article-main-sec .article-content .content-logo img {
+    max-height: 1.984vw;
+    object-fit: contain;
+}
+
+.related-article-heading {
+    font-size: 2.646vw;
+    letter-spacing: 0.011em;
+}
+
+.related-article-label {
+    gap: 1.19vw;
+}
+
+.related-article-header {
+    padding-bottom: 2.116vw;
+}
+
+.related-article-sec {
+    padding: 2.91vw 0 6.614vw;
+}
+
+.article-page .footer-site {
+    padding-bottom: 3.836vw;
+}
